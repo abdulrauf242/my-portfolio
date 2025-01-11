@@ -64,6 +64,11 @@ p {
   transition: color 0.3s ease;
 }
 
+
+
+
+
+
 .social-icon:hover {
   color: #00e0ff;
 }
@@ -271,3 +276,4 @@ p {
    .text-margin{
     margin-right: 30px;
    }
+  
