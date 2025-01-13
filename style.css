@@ -29,7 +29,9 @@ html {
   from, to { border-color: transparent; }
   50% { border-color: black; }
 }
-
+div.offcanvas-body{
+  color: black;
+}
 
 
 
@@ -42,7 +44,7 @@ html {
 }
 
 .nav-link {
-  color: white !important;
+  color: wheat !important;
 }
 
 .hero {
@@ -150,6 +152,15 @@ p {
     width: 280px;
     height: 280px;
   }
+}
+@media screen and (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+  .nav-link {
+    padding: 1rem;
+  }
+  
 }
 
 
